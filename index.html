@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <link href='https://fonts.googleapis.com/css?family=Gloock' rel='stylesheet'>
+        <link href="vangogh_css.css" rel="stylesheet">
+
+        <style>
+            body{
+             font-family: 'Gloock';
+            }
+        </style>
+        
+        <div class ="back1">
+            <h1> PAINTINGS BY VAN GOGH</h1>
+            <div class="wiki">
+            <p class="para1"> Vincent Willem van Gogh was a Dutch Post-Impressionist painter who posthumously became one of the most famous and influential figures in Western art history. </p>
+          
+            </div>
+            <div class="wiki2">
+                <ol>
+                    <li>Starry Night</a></li>
+                    <li> Starry Night over the Rhone</li>
+                    <li> Factories of Asnieres</li>
+                    <li>
+                      Almond Blossoms
+                    </li>
+                </ol>
+            </div>
+        </div>
+        
+
+        <div class ="back2">
+            <h1 id="my-header" class="h2" tabindex="0" > STARRY NIGHT</h1>
+            <p class ="hidden" id="my-paragraph">Van Gogh painted The Starry Night during his 12-month stay at the Saint-Paul-de-Mausole asylum near Saint-Rémy-de-Provence, France, several months after suffering a breakdown in which he severed a part of his own ear with a razor. While at the asylum, he painted during bursts of productivity that alternated with moods of despair. As an artist who preferred working from observation, van Gogh was limited to the subjects that surrounded him—his own likeness, views outside his studio window, and the surrounding countryside that he could visit with a chaperone.</p>
+            
+            </div>
+            
+            <div class ="back3">
+                <h1 class="h1" id="my-header2" tabindex="0"> STARRY NIGHT OVER THE RHONE</h1>
+                <p class="hidden2" id= "my-paragraph2">The challenge of painting at night intrigued Van Gogh. The vantage point he chose for "Starry Night Over the Rhone" allowed him to capture the reflections of the gas lighting in Arles across the glimmering blue water of the Rhone. In the foreground, two lovers stroll by the banks of the river. Here his stars glow with a luminescence, shining from the dark, blue and velvety night sky. Dotted along the banks of the Rhone houses also radiate a light that reflects in the water and adds to the mysterious atmosphere of the painting.</p>
+                
+                </div>  
+                <div class ="back4">
+                    <h1 class="h1" id="my-header3" tabindex="0"> FACTORIES OF ASINIERES</h1>
+                    <p class="hidden3" id="my-paragraph3">As industry in Paris increased, factories were built in the surrounding areas, and Asnieres situated to the west of Paris on the River Seine gradually evolved into an industrial suburb of the city. Though it was home to the factories painted by Van Gogh, the area was also a fashionable place for the inhabitants of Paris to go to on day trips. Situated along the Seine it was a popular place for promenading and bathing, and had been famously documented by Seurat in 1883-84 with his Bothers at Asnieres.</p>
+                    
+                    </div>
+                    <div class ="back5">
+                        <h1 class="h1" id="my-header4" tabindex="0">ALMOND BLOSSOMS </h1>
+                        <p class ="h1" id ="my-paragraph4">Almond Blossoms is a group of several paintings made in 1888 and 1890 by Vincent van Gogh in Arles and Saint-Rémy, southern France of blossoming almond trees. Flowering trees were special to van Gogh. They represented awakening and hope. He enjoyed them aesthetically and found joy in painting flowering trees.In mid-March 1888 van Gogh writes of the weather and that the almond trees are coming into full flower, "The weather here is changeable, often windy with turbulent skies, but the almond trees are beginning to flower everywhere."</p>
+                     
+                        </div>
+                    <script>
+                    document.getElementById("my-header").addEventListener("click", function() {
+  var paragraph = document.getElementById("my-paragraph");
+  if (paragraph.classList.contains("hidden")) {
+    paragraph.classList.remove("hidden");
+    paragraph.classList.add("visible");
+  } else {
+    paragraph.classList.remove("visible");
+    paragraph.classList.add("hidden");
+  }
+});</script>
+<script>
+                     document.getElementById("my-header2").addEventListener("click", function() {
+  var paragraph = document.getElementById("my-paragraph2");
+  if (paragraph.classList.contains("hidden2")) {
+    paragraph.classList.remove("hidden2");
+    paragraph.classList.add("visible2");
+  } else {
+    paragraph.classList.remove("visible2");
+    paragraph.classList.add("hidden2");
+  }
+})
+</script>
+<script>
+                    document.getElementById("my-header3").addEventListener("click", function() {
+  var paragraph = document.getElementById("my-paragraph3");
+  if (paragraph.classList.contains("hidden3")) {
+    paragraph.classList.remove("hidden3");
+    paragraph.classList.add("visible3");
+  } else {
+    paragraph.classList.remove("visible3");
+    paragraph.classList.add("hidden3");
+  }
+})
+
+</script>
+<script>
+                       document.getElementById("my-header4").addEventListener("click", function() {
+  var paragraph = document.getElementById("my-paragraph4");
+  if (paragraph.classList.contains("hidden4")) {
+    paragraph.classList.remove("hidden4");
+    paragraph.classList.add("visible4");
+  } else {
+    paragraph.classList.remove("visible4");
+    paragraph.classList.add("hidden4");
+  }
+})</script>
+                    
+                
+    </body>
+   
+</html>

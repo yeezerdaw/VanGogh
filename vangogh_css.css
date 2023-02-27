@@ -1,0 +1,181 @@
+
+.wiki{
+    
+    width: 2000px;
+    height: 1600px;
+    transform: translateY(350px);
+    margin-left: 30px;
+
+}
+.wiki2{
+    width: 2000px;
+    height: 1600px;
+    transform: translateX(-10000px);
+    font-size: 10.5em;
+    transform: translateX(4300px);
+    backdrop-filter: blur(10px);
+    margin-bottom: 40%;
+  
+}
+
+.para1{
+    font-size:10.5em;
+    margin-left: 100px;
+    backdrop-filter: blur(px);
+}
+.para1:hover{
+    transform: scale(1.11);
+    transition: transform 0.2s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+body{
+    
+    width: 6006px;
+    height: 3206px;
+    background-color: black;
+    overflow-x: hidden;
+}
+h1 {
+    transform: translateY(1px);
+    text-align: center;
+    translate: 330px;
+    font-size: 15.5em;
+    margin-top:0;
+  
+
+}
+h1:hover{
+    transform: scale(1.11);
+    transition: transform 0.2s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+.back1{
+    background-image: url("https://media.tenor.com/nCIiuWLo-WYAAAAd/van-gogh-painting.gif");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 6000px;
+    height: 3200px;
+    transform: translateX(12px);
+   
+}
+.back2{
+    background-image: url("starrynight.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    transform: translateY(50px);
+  position: relative;
+    width: 6000px;
+  height: 3200px;
+  
+}
+
+
+.back3{
+    background-image: url("over.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(100px);
+    margin-top: 0;
+    width: 6000px;
+    height: 3200px;
+}
+  
+
+  
+
+  .back4{
+    transform: translateY(150px);
+    background-image: url("factories.gif");
+    background-size: cover ;
+    width: 6000px;
+    height: 3200px;
+  }
+  .back5{
+    transform: translateY(200px);
+    background-image: url("almond.gif");
+    background-size: cover ;
+    width: 6000px;
+    height: 3200px;
+
+  }
+  .factories{
+    font-size:50.5em;
+    transform: translateX(100px);
+    color:white;
+    
+  
+    backdrop-filter: blur(7px);
+    text-align: center;
+
+  }
+  .h1{
+   
+    cursor: pointer;
+  }
+  .h2{
+    
+    cursor: pointer;
+  }
+  .h3{
+    
+    cursor: pointer;
+  }
+.hidden{
+  
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, height 0.3s ease;
+}  
+.visible {
+    font-size: 10.5em;
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.3s ease, height 0.3s ease;
+    backdrop-filter: blur(15px);
+    
+  }
+  .hidden2{
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, height 0.3s ease;
+  }  
+  .visible2 {
+      font-size: 10.5em;
+      opacity: 1;
+      height: auto;
+      transition: opacity 0.3s ease, height 0.3s ease;
+      backdrop-filter: blur(15px);
+      
+    }
+    .hidden3{
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        transition: opacity 0.3s ease, height 0.3s ease;
+      }  
+      .visible3{
+          font-size: 10.5em;
+          opacity: 1;
+          height: auto;
+          transition: opacity 0.3s ease, height 0.3s ease;
+          backdrop-filter: blur(15px);
+          
+        }
+        .hidden4{
+            opacity: 0;
+            height: 0;
+            overflow: hidden;
+            transition: opacity 0.3s ease, height 0.3s ease;
+          }  
+          .visible4{
+              font-size: 10.5em;
+              opacity: 1;
+              height: auto;
+              transition: opacity 0.3s ease, height 0.3s ease;
+              backdrop-filter: blur(15px);
+              
+            }
+        
